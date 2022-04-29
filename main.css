@@ -1,0 +1,55 @@
+@font-face {
+    font-family: PPNeueBit;
+    src: url(./fonts/PPNeueBit-Bold.otf);
+  }
+body{
+    background-color: black;
+    color: white;
+    margin:0;
+    font-family: PPNeueBit;
+}
+.headboard{
+    width:100vw;
+    height:100vh;
+    background-color: green;
+}
+h1{
+    font-size: 100px;
+    font-family: PPNeueBit;
+}
+h2{
+    font-size: 40px;
+    font-family: PPNeueBit;
+}
+h6{
+    font-size: 22px;
+    font-family: PPNeueBit;
+    padding: 0%;
+    margin: 10%;
+}
+/* vertical and horizontal center align the headers below */
+.headboard h1{ 
+    width: 70px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+.menu{
+    display: flex;
+    position:sticky;
+    top:0;
+}
+#header{
+    width: 100%;
+   
+   /* background-color: aliceblue; */
+   z-index: 2;
+}
+#hamburger{
+    position:absolute;
+    left:0;
+}

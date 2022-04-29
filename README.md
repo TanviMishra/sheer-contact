@@ -1,2 +1,3 @@
 # sheer-contact
-Sheer contact: Soft sensors, Trash World
+
+Soft sensors, Trash World
