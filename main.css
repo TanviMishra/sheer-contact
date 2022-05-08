@@ -128,3 +128,32 @@ a:hover{
     height: auto;
     margin: 1%;
 }
+
+/* about page */
+#us{
+    width: 70%;
+    margin-top: 5%;
+}
+.bio img{
+    width:50%;
+    height:200px;
+    object-fit: cover;
+}
+.usText{
+    font-size: 22px;
+}
+.flex{
+    display: flex;
+}
+.credit{
+    width: 25%;
+}
+#anna{
+    width:30%
+}
+#krithi{
+    width:30%
+}
+#tanvi{
+    width:30%
+}
