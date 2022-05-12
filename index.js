@@ -35,3 +35,15 @@ xhr.send();
 //   }
 //   imageEnlarge();
 // });
+
+let body = document.querySelector("body");
+let particle = document.querySelector("#particle");
+particle.style.left = "100px";
+particle.style.top = "100px";
+body.addEventListener("click", (elem) => {
+  let marginTop = window.innerHeight * Math.random(0, 1);
+  let marginLeft = window.innerWidth * Math.random(0, 1);
+  particle.style.left = marginLeft + "px";
+  particle.style.top = marginTop + "px";
+  particle.classList.add("transition");
+});

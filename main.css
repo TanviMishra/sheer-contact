@@ -154,7 +154,27 @@ a:hover{
     height: auto;
     margin: 1%;
 }
-
+#particle{
+    width:40px;
+    height:40px;
+    background:#79763e;
+    z-index: 10;
+    position: fixed;
+    border-radius: 50%;
+}
+.transition{
+    animation: blinking 4s ease-in-out no-repeat;
+}
+@keyframes blinking {
+    from  {
+        opacity: 100%;
+        display: block;
+    }
+    to {
+        opacity: 0;
+        display: none;
+    }
+  }
 /* about page */
 #us{
     width: 70%;
