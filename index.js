@@ -18,3 +18,20 @@ xhr.onload = () => {
   }
 };
 xhr.send();
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   // JavaScript
+//   let images = document.querySelectorAll("img");
+//   function imageEnlarge() {
+//     for (i = 0; i < images.length; i++) {
+//       elem = images[i];
+//       console.log("click added");
+//       elem.addEventListener("click", function () {
+//         // elem.classList.toggle("enlarged");
+//         elem.style.transform = "scale(2)";
+//         console.log(elem);
+//       });
+//     }
+//   }
+//   imageEnlarge();
+// });

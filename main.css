@@ -10,6 +10,9 @@
     font-family: radio;
     src: url(./fonts/PPRadioGrotesk-Regular.otf);
 }
+::selection {
+    color: var(--lightGreen)
+  }
 :root {
     --background: #050404;
     --textCol: #f9e4d8;
@@ -41,10 +44,19 @@ h3{
     font-family: radio;
     color: var(--tan);
 }
+h4{
+    font-size: 260%;
+    font-family: grafierReg;
+}
 p{
     font-size: 150%;
     font-family: radio;
-    max-width: 80%;
+    max-width: 60%;
+}
+.enlarged {
+    /* width: 100vw;
+    height: 100vh; */
+    opacity: 0% !important;
 }
 .menu{
     display: flex;
@@ -78,7 +90,7 @@ a:hover{
     object-fit: cover;
 }
 #mainContent{
-    width:80%;
+    width:65%;
     margin: auto;
 }
 #experiment{
@@ -91,7 +103,7 @@ a:hover{
 }
 .leftContainer{
     margin: 100px auto 0 0;
-    width: 70%;
+    width: 85%;
     height: fit-content;
 }
 .leftContainer p{
@@ -100,7 +112,7 @@ a:hover{
 }
 .rightContainer{
     margin: 100px 0 0 auto;
-    width: 70%;
+    width: 85%;
     height: fit-content;
 }
 .rightContainer p{
@@ -119,13 +131,26 @@ a:hover{
     line-height: 0.9;
     /* text-transform: uppercase;
     line-height: 100%; */
+    z-index: 10;
+}
+.asterix{
+    font-size: 50%;
+    width: fit-content;
+    margin: auto;
+}
+.asterix:hover{
+    font-size: 120%;
+}
+.interactModel{
+    width:100%;
+    height:auto;
 }
 #appendixContainer{
     display: flex;
     flex-wrap: wrap;
 }
 #appendixContainer img{
-    width:30%;
+    width:40%;
     height: auto;
     margin: 1%;
 }
