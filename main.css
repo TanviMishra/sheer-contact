@@ -39,6 +39,7 @@ h2{
 h3{
     font-size: 130%;
     font-family: radio;
+    color: var(--tan);
 }
 p{
     font-size: 150%;
@@ -53,7 +54,8 @@ p{
     top:0;
     width:80%;
     margin:auto;
-    opacity: 80%;
+    opacity: 90%;
+    background-image: linear-gradient( var(--background), transparent);
 }
 .pageLink{
     width: fit-content;
@@ -64,19 +66,16 @@ a{
     cursor: pointer;
 }
 a:hover{
-    color: var(--orange);
+    color: var(--textCol);
+    opacity: 100%;
 }
 /* Main Page */
-.headboard{
-    width:100%;
-    height:100vh;
-    background-color: var(--darkGreen);
-}
 #banner{
-    width: fit-content;
+    width: 100%;
     height: 100vh;
     padding: 0;
     margin:0;
+    object-fit: cover;
 }
 #mainContent{
     width:80%;
@@ -118,6 +117,8 @@ a:hover{
 .caption{
     font-size: 350%;
     line-height: 0.9;
+    /* text-transform: uppercase;
+    line-height: 100%; */
 }
 #appendixContainer{
     display: flex;
@@ -149,11 +150,20 @@ a:hover{
     width: 25%;
 }
 #anna{
-    width:30%
+    width:33%;
+    height: 100px;
 }
 #krithi{
-    width:30%
+    width:33%;
+    height:100px;
 }
 #tanvi{
-    width:30%
+    width:33%;
+    height:100px;
+}
+.usText a{
+    opacity: 100%;
+}
+.usText a:hover{
+    color: var(--tan);
 }
