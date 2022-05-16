@@ -1,7 +1,7 @@
 // var folder = "assets/images/appendix/";
 var xhr = new XMLHttpRequest();
 let appendixContainer = document.querySelector("#appendixContainer");
-xhr.open("GET", "/assets/images/appendix", true);
+xhr.open("GET", "./assets/images/appendix", true);
 xhr.responseType = "document";
 xhr.onload = () => {
   if (xhr.status === 200) {
